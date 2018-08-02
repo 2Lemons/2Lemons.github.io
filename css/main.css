@@ -1,0 +1,172 @@
+/* --------------------------- Основные стили -------------------------- */
+body
+{
+    padding: 0; /* отступы внутрь элемнта */
+    margin: 0; /* отступы наружу элемента */
+
+    background: url(../img/bg.png) no-repeat center top / cover;
+    background-attachment:fixed;
+    /*
+        url(...) - путь к файлу
+        no-repeat - без повторения(замостки)
+        center - положение по горизонтали
+        top - положение по вертикали
+        cover - растягивать по ширине экрана
+    */
+    padding-bottom: 120px;
+    font-family: "Arial Regular";
+    font-size: 14.67px;
+}
+div
+{
+    box-sizing: border-box;
+}
+.container
+{
+    width: 348px;
+    margin: 0 auto;
+    text-align: center;
+}
+p
+{
+    margin: 0;
+}
+a
+{
+    text-decoration: none;
+    color: #d264dd;
+}
+a:hover
+{
+    text-decoration: none;
+    color: #d264dd;
+}
+/* ------------------------------- HEAD ------------------------------------ */
+.heading
+{
+    margin: 0;
+    padding: 0;
+}
+.logo
+{
+    padding-top: 55px;
+}
+.birds
+{
+    padding-top: 30px;
+}
+.twitter
+{
+    margin-top: 35px;
+}
+/* ------------------------------- GAMES ----------------------------------- */
+.games
+{
+    padding-top: 35px;
+}
+.games ul
+{
+    margin: 0;
+    padding: 0;
+}
+.games li
+{
+    padding-top: 24px;
+    text-align: left;
+    list-style-type: none;
+    display: block;
+}
+.icon
+{
+    padding-right: 10px;
+    display: block;
+    float:left;
+}
+
+.title
+{
+    font-family: "Arial Black";
+    color: #d264dd;
+    vertical-align: top;
+    font-size: 16px;
+    font-weight: bold;
+}
+.description
+{
+    padding-top: 4px;
+}
+.about_game p
+{
+    margin: 0;
+}
+/* ------------------------------- ABOUT ----------------------------------- */
+.about
+{
+    padding-top: 45px;
+}
+.about_img
+{
+    padding-bottom: 6px;
+}
+.about p
+{
+    text-align: left;
+    padding-top: 24px;
+}
+.thank
+{
+    padding-top: 19px;
+}
+.thank div
+{
+    display:block;
+    float:left;
+}
+.thank img
+{
+    padding-left: 35px;
+    padding-right: 65px;
+    padding-top: 5px;
+    float: right
+}
+.clearfix:after
+{
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+/* ------------------------------- ABOUT ----------------------------------- */
+.footer
+{
+    padding-top: 30px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
